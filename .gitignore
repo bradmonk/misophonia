@@ -1,11 +1,23 @@
-# Build and Release Folders
-bin/
-bin-debug/
-bin-release/
+# History files
+.Rhistory
+.Rapp.history
 
-# Other files and folders
-.settings/
+# Example code in package build process
+*-Ex.R
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# RStudio files
+.Rproj.user/
+
+# produced vignettes
+vignettes/*.html
+vignettes/*.pdf
+
+# Local-only directories
+artwork/*
+ScriptArchive/*
+Tools/*
+
+data/*
+*.mat
+*.avi
+*.m~
